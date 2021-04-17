@@ -1,0 +1,249 @@
+body{
+    width:1450px;
+}
+h1{
+    font-size:35px;
+    margin-left:50px;
+}
+.h1_in{
+    color:orange;
+    font-style: italic;
+}
+header{
+    display:flex;
+    margin-bottom: 70px;
+}
+.username_button{
+    border:none;
+    outline: none;
+    background-color: white;
+    font-size: 25px;
+    margin-left: 1100px;
+}
+.username_button:hover{
+    opacity: 0.5;
+}
+.middle_section{
+    display:flex;
+}
+.navigation{
+    background-color: rgba(0, 0, 0, 0.637); 
+    width:225px;
+  
+ 
+    
+}
+.navigation_button{
+    color:white;
+    width:225px;  
+    text-align: left;
+    font-size: 17px;
+    padding:25px 15px 25px 15px;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid black;
+    border-top:1px solid gray;
+    background:transparent;
+    height:79px;
+}
+.navigation_button:hover{
+    background-color: rgba(0, 0, 0, 0.596);
+}
+.value_section{
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    width:100%;
+    height: 800px;
+}
+#exit_button{
+    border-bottom: none;
+}
+.review_paragraph{
+    border-bottom: 1px solid gray;
+    font-size: 25px;
+    padding-left:550px;
+    height: 52.4px;
+}
+#faces_paragraph{
+    padding-left:120px;
+
+}
+.review_summary{
+    display:flex;
+    justify-content: space-between;
+}
+.amount_of{
+    color:green;
+}
+.summary{
+    border: 1px solid gray;
+    font-size:20px;
+    padding:20px;
+    margin-top:28px;
+    margin-left:28px;
+}
+.summary_companies_h{
+    color:green;
+    padding-left:120px;
+}
+.summary_faces_h{
+    color:green;
+    padding-left:50px;
+}
+.summary_sales_h{
+    color:green;
+    padding-left:120px;
+
+}
+.companies{
+    display:none;
+}
+#rollup_button{
+    margin-top:110px;
+    height: 50px;
+    padding: 10px;
+    top:550px;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    position: fixed;
+    left:8px;
+}
+.new_company_button{
+    background-color: rgb(20, 170, 20);
+    color:white;
+    outline: none;
+    border:none;
+    border-radius: 20px;
+    font-size: 20px;
+    padding:10px;
+    margin:50px;
+}
+.new_company_button:hover{
+    background-color: green;
+}
+.company_table_header{
+    display: flex;
+   justify-content:space-between;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.company_table_string{
+    display: flex;
+    justify-content: space-between;
+   
+    
+    margin-left: 30px;
+    
+}
+.overlay{
+    
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    display: none;
+}
+.company_window{
+    display:none;
+    position: fixed;
+    top:80px;
+    left:500px;
+    width:500px;
+    height:600px;
+    background-color: white;
+    font-size:20px;
+    border-radius: 10px;
+}
+.new_company_paragraph{
+    border-bottom: 1px solid rgba(180, 174, 174, 0.925);
+    padding-left: 160px;
+    display: flex;
+    font-size:21px;
+}
+.close_window{
+    outline: none;
+    border:none;
+    background-color: white;
+}
+#sales_paragraph{
+    padding-left:170px;
+}
+#close_company_window{
+    padding-left:130px;
+    margin-top:0px;
+    padding-top:0px;
+}
+#close_face_window{
+    padding-left:110px;
+    margin-top:0px;
+    padding-top:0px;
+
+}
+#close_sale_window{
+    padding-left:150px;
+}
+.close_window:hover{
+    opacity: 0.5;
+}
+.new_company_input{
+    border:1px solid gray;    
+    outline: none;
+    font-size: 20px;
+    border-radius: 15px;
+    height: 30px;
+    width:250px;
+    margin:40px 0px 0px 130px;
+}
+#save_new_company_button{
+    margin:70px 0px 0px 190px;
+}
+#save_new_sale_button{
+    margin:70px 0px 0px 190px;
+}
+#save_new_face_button{
+    margin:70px 0px 0px 190px;
+}
+.company_item{
+    width:200px;
+    margin-right: 50px;
+    overflow: hidden;
+    
+}
+.company_item_phone{
+    width:160px;
+    margin-right: 50px;
+    overflow: hidden;
+}
+.company_item_address{
+    width:200px;
+    margin-right: 50px;
+    overflow: hidden;
+    
+}
+.company_item_location{
+    width:190px;
+    margin-right: 50px;
+    overflow: hidden;
+    
+}
+.faces{
+    display:none;
+}
+.sales{
+    display:none;
+}
+.settings{
+    display:none;
+}
+.help{
+    display:none;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main_page_styles.css"> 
+    <title>BusIn</title>
+</head>
+<body>
+    
+    <div class="middle_section">
+        <div class="navigation" id="navigation">
+            <input type="button" value=" &#10026;    Обзор" class="navigation_button" id="review_button">
+            <input type="button" value=" &#9750;    Компании" class="navigation_button" id="companies_button">
+            <input type="button" value=" &#9743;    Контактные лица" class="navigation_button" id="faces_button">
+            <input type="button" value=" &#9745;    Сделки" class="navigation_button" id="sales_button">
+            <input type="button" value=" &#9881;    Настройки" class="navigation_button" id="settings_button">
+            <input type="button" value=" &#9432    Помощь" class="navigation_button" id="help_button">
+            <input type="button" value=" &#8658;    Выход" class="navigation_button" id="exit_button" onclick='location.href="BusIn.html"'>
+            <input type="button" value=" &#9668     Свернуть" class="navigation_button" id="rollup_button">
+
+
+        </div>
+        
+        <div  class="value_section">
+            
+            <div class="review" id="review">
+                <div class="review_paragraph">
+                    <p>Обзор</p>
+                </div>
+                <div class="review_summary">
+                    <div class="summary">
+                        <p class="summary_companies_h">Компании</p>
+                        <p>Количество сотрудничающих компаний: <span class="amount_of">1</span></p>
+                    </div>
+                    <div class="summary">
+                        <p class="summary_faces_h">Контактные лица</p>
+                        <p>Количество контактных лиц: <span class="amount_of">5</span></p>
+                    </div>
+                    <div class="summary">
+                        <p class="summary_sales_h">Сделки</p>
+                        <p>Количество завершенных сделок: <span class="amount_of">3</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="companies" id="companies">
+                <div class="review_paragraph">
+                    <p>Компании</p>
+                   
+                </div>
+                <input type="button" value=" + Добавить компанию" class="new_company_button" id="new_company_button">
+                <div class="company_table_header">
+                    <p class="company_item">Название</p>
+                    <p class="company_item">Сайт</p>
+                    <p class="company_item_phone">Телефон</p>
+                    <p class="company_item_address">Адрес</p>
+                    <p class="company_item_location">Расположение</p>
+                </div>
+                <hr align="center" width="100%">
+                <div class="company_table_string">
+                    <p class="company_item">111111111111s11111111111</p>
+                    <p class="company_item">2222222222222222222222</p>
+                    <p class="company_item_phone">333333333333333333</p>
+                    <p class="company_item_address">44444444444444</p>
+                    <p class="company_item_location">5555555555555555</p>
+                
+
+                </div>
+            </div>
+
+
+
+
+            <div class="faces" id="faces">
+                <div class="review_paragraph">
+                    <p>Контактные лица</p>
+                   
+                </div>
+                <input type="button" value=" + Добавить контактное лицо" class="new_company_button" id="new_face_button">
+                <div class="company_table_header">
+                    <p class="company_item">ФИО</p>
+                    <p class="company_item">Компания</p>
+                    <p class="company_item_phone">Телефон</p>
+                    <p class="company_item_address">Должность</p>
+                    <p class="company_item_location">Почта</p>
+                </div>
+                <hr align="center" width="100%">
+                <div class="company_table_string">
+                    <p class="company_item">111111111111111111111111111</p>
+                    <p class="company_item">2222222222222222222222</p>
+                    <p class="company_item_phone">333333333333333333</p>
+                    <p class="company_item_address">44444444444444</p>
+                    <p class="company_item_location">5555555555555555</p>
+
+                </div>
+            </div>
+
+            <div class="faces" id="sales">
+                <div class="review_paragraph">
+                    <p>Сделки</p>
+                   
+                </div>
+                <input type="button" value=" + Добавить сделку" class="new_company_button" id="new_sale_button">
+                <div class="company_table_header">
+                    <p class="company_item">Название</p>
+                    <p class="company_item">Компания</p>
+                    <p class="company_item_phone">Контактное лицо</p>
+                    <p class="company_item_address">Бюджет</p>
+                    <p class="company_item_location">Статус</p>
+                </div>
+                <hr align="center" width="100%">
+                <div class="company_table_string">
+                    <p class="company_item">1111111111111111111111111jjjjjjjjjjjjjjjjjj11</p>
+                    <p class="company_item">2222222222222222222222</p>
+                    <p class="company_item_phone">333333333333333333</p>
+                    <p class="company_item_address">44444444444444</p>
+                    <p class="company_item_location">5555555555555555</p>
+
+                </div>
+            </div>
+
+            <div class="settings" id="settings">
+                <div class="review_paragraph">
+                    <p>Настройки</p>
+                   
+                </div>
+            </div>
+            
+
+
+            <div class="help" id="help">
+                <div class="review_paragraph">
+                    <p>Помощь</p>
+                   
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="overlay" id="overlay"></div>
+        <div class="company_window" id="company_window">
+            <div class="new_company_paragraph">
+                <p>Добавить компанию:</p>
+                <input type="button" value="&#10006;" class="close_window" id="close_company_window">
+
+            </div>
+           
+            <input type="text" placeholder="  Название компании" class="new_company_input" id="new_company_name_input">
+            <input type="text" placeholder="  Сайт" class="new_company_input" id="new_company_site_input">
+            <input type="text" placeholder="  Телефон" class="new_company_input" id="new_company_phone_input">
+            <input type="text" placeholder="  Адрес" class="new_company_input" id="new_company_address_input">
+            <input type="text" placeholder="  Расположение" class="new_company_input" id="new_company_location_input">
+            <input type="submit" value="Сохранить" class="new_company_button" id="save_new_company_button">
+
+            
+            
+      
+            
+            
+            
+        </div>
+
+
+        <div class="company_window" id="face_window">
+            <div class="new_company_paragraph" id="faces_paragraph">
+                <p>Добавить контактное лицо:</p>
+                <input type="button" value="&#10006;" class="close_window" id="close_face_window">
+
+            </div>
+            <input type="text" placeholder="  ФИО" class="new_company_input">
+            <input type="text" placeholder="  Компания" class="new_company_input">
+            <input type="text" placeholder="  Телефон" class="new_company_input">
+            <input type="text" placeholder="  Должность" class="new_company_input">
+            <input type="text" placeholder="  Почта" class="new_company_input">
+            <input type="button" value="Сохранить" class="new_company_button" id="save_new_face_button">
+        </div>
+
+        <div class="company_window" id="sale_window">
+            <div class="new_company_paragraph" id="sales_paragraph">
+                <p>Добавить сделку:</p>
+                <input type="button" value="&#10006;" class="close_window" id="close_sale_window">
+
+            </div>
+            <input type="text" placeholder="  Название" class="new_company_input">
+            <input type="text" placeholder="  Компания" class="new_company_input">
+            <input type="text" placeholder="  Контактное лицо" class="new_company_input">
+            <input type="text" placeholder="  Бюджет" class="new_company_input">
+            <input type="text" placeholder="  Статус" class="new_company_input">
+            <input type="button" value="Сохранить" class="new_company_button" id="save_new_sale_button">
+        </div>
+
+    </div>
+    
+
+    <script src="main_script.js"></script>
+</body>
+</html>

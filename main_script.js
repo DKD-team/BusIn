@@ -140,7 +140,6 @@ function save_new_company(){
         +'<p class="company_item">'+second_input.value+'</p>'+'<p class="company_item_phone">'+third_input.value+'</p>'+'<p class="company_item_address">'+forth_input.value+'</p>'
         +'<p class="company_item_location">'+fifth_input.value+'</p>'+'</div>'+'<hr align="center" width="100%">');
         close_company();
-
     }
     else{
         alert("Вы не ввели название компании!");

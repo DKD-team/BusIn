@@ -132,20 +132,6 @@
             
 
 
-            <div class="help" id="help">
-                <div class="review_paragraph">
-                    <p>Помощь</p>
-                   
-                </div>
-            </div>
-
-
-
-
-
-
-
-
 
         </div>
         <div class="overlay" id="overlay"></div>
@@ -178,11 +164,11 @@
                 <input type="button" value="&#10006;" class="close_window" id="close_face_window">
 
             </div>
-            <input type="text" placeholder="  ФИО" class="new_company_input">
-            <input type="text" placeholder="  Компания" class="new_company_input">
-            <input type="text" placeholder="  Телефон" class="new_company_input">
-            <input type="text" placeholder="  Должность" class="new_company_input">
-            <input type="text" placeholder="  Почта" class="new_company_input">
+            <input type="text" placeholder="  ФИО" class="new_company_input" id="new_face_name_input">
+            <input type="text" placeholder="  Компания" class="new_company_input" id="new_face_company_input">
+            <input type="text" placeholder="  Телефон" class="new_company_input" id="new_face_phone_input">
+            <input type="text" placeholder="  Должность" class="new_company_input" id="new_face_place_input">
+            <input type="text" placeholder="  Почта" class="new_company_input" id="new_face_mail_input">
             <input type="button" value="Сохранить" class="new_company_button" id="save_new_face_button">
         </div>
 
@@ -192,12 +178,24 @@
                 <input type="button" value="&#10006;" class="close_window" id="close_sale_window">
 
             </div>
-            <input type="text" placeholder="  Название" class="new_company_input">
-            <input type="text" placeholder="  Компания" class="new_company_input">
-            <input type="text" placeholder="  Контактное лицо" class="new_company_input">
-            <input type="text" placeholder="  Бюджет" class="new_company_input">
-            <input type="text" placeholder="  Статус" class="new_company_input">
+            <input type="text" placeholder="  Название" class="new_company_input" id="new_sale_name_input">
+            <input type="text" placeholder="  Компания" class="new_company_input" id="new_sale_company_input">
+            <input type="text" placeholder="  Контактное лицо" class="new_company_input" id="new_sale_man_input">
+            <input type="text" placeholder="  Бюджет" class="new_company_input" id="new_sale_budget_input">
+            <input type="text" placeholder="  Статус" class="new_company_input" id="new_sale_status_input">
             <input type="button" value="Сохранить" class="new_company_button" id="save_new_sale_button">
+        </div>
+
+        <div class="company_window" id="help_window">
+            <div class="new_company_paragraph" id="sales_paragraph">
+                <p id="help_paragraph">Помощь:</p>
+                <input type="button" value="&#10006;" class="close_window" id="close_help_window">
+            </div>
+            
+                <input type="text" placeholder="Ваша Почта" class="new_company_input">
+                <textarea placeholder="С чем вам нужна помощь?" id="help_textarea" class="new_help_textarea"></textarea>
+                <input type="button" value="Отправить" class="new_company_button" id="save_help_button">
+            
         </div>
 
     </div>

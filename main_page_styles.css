@@ -184,6 +184,12 @@ header{
 #close_sale_window{
     padding-left:150px;
 }
+#close_help_window{
+    padding-left:170px;
+}
+#help_paragraph{
+    padding-left:40px;
+}
 .close_window:hover{
     opacity: 0.5;
 }
@@ -237,8 +243,23 @@ header{
 .settings{
     display:none;
 }
+.help_window{
+    display: none;
+}
 .help{
-    display:none;
+    display: block;
+}
+.new_help_textarea{
+    border:1px solid gray;    
+    outline: none;
+    font-size: 20px;
+    border-radius: 15px;
+    height: 280px;
+    width:380px;
+    margin:40px 0px 0px 60px;
+}
+#save_help_button{
+    margin-left:190px;
 }
 
 

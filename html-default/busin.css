@@ -1,0 +1,211 @@
+header {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+@font-face {
+    font-family: Comic_Sans_MS;
+    src: url(./assets/fonts/Comic_Sans_MS.ttf);
+}
+
+body {
+    width: 1450px;
+    font-family: Comic_Sans_MS;
+    src: url(./assets/fonts/Comic_Sans_MS.ttf);
+}
+
+h1 {
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.h1_in {
+    color: orange;
+    font-style: italic;
+}
+
+.nav_links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_button:hover {
+    color: blue;
+}
+
+.sign_in_button {
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: 25px;
+    height: 30px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 30px;
+    color: white;
+}
+
+.sign_in_button:hover {
+    opacity: 0.5;
+}
+
+.sign_in_button:active {
+    transform: translateY(4px);
+}
+
+.after_header_section {
+    background-image: url(./assets/pictures/bus.jpg);
+    height: 700px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.after_header_section_header {
+    margin: 0px 850px 0px 50px;
+    padding-top: 50px;
+    font-style: italic;
+}
+
+.after_header_section_paragraph {
+    font-size: 35px;
+    font-weight: normal;
+    font-style: normal;
+    margin: 120px 950px 0px 50px;
+}
+
+.why_busin_header {
+    font-size: 50px;
+    font-style: italic;
+    margin-left: 600px;
+}
+
+.middle_display {
+    display: flex;
+}
+
+.way_top_image {
+    height: 400px;
+    width: 600px;
+    margin-right: 50px;
+    border-radius: 50%;
+}
+
+.why_busin_paragraph {
+    font-size: 30px;
+    margin: 50px 150px 0px 70px;
+    line-height: 170%;
+}
+
+.pricing_section {
+    margin-top: 50px;
+    border-top: 1px solid black;
+}
+
+.pricing_header {
+    color: black;
+    font-size: 50px;
+    font-style: italic;
+    padding: 10px 200px 50px 400px;
+    width: 900px;
+}
+
+.list_of_features {
+    list-style-image: url(./assets/pictures/gal.png);
+    margin-left: 300px;
+    text-align: left;
+}
+
+.premium_function {
+    color: black;
+    font-size: 30px;
+    margin-top: 0px;
+    position: relative;
+    top: -15px;
+}
+
+.premium_img {
+    width: 700px;
+    height: 400px;
+    border-radius: 40%;
+}
+
+.support_section {
+    height: 700px;
+    font-size: 50px;
+    color: black;
+}
+
+.support_header {
+    padding-left: 510px;
+    padding-top: 50px;
+    font-size: 40px;
+    font-style: italic;
+    position: absolute;
+    width: 500px;
+    top: 2050px;
+}
+
+.support_img {
+    opacity: 0.4;
+    width: 100%;
+    height: 700px;
+}
+
+.email_data {
+    position: absolute;
+    top: 2250px;
+    left: 600px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.problem_data {
+    position: absolute;
+    top: 2350px;
+    left: 400px;
+    height: 300px;
+    width: 670px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.submit_button {
+    position: absolute;
+    top: 2700px;
+    left: 650px;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.submit_button:active {
+    transform: translateY(4px);
+}
+
+.error {
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.error:active {
+    padding: 0.3em;
+}

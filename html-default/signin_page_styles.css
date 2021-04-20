@@ -76,3 +76,6 @@ h1 {
 .login:active {
     transform: translateY(4px);
 }
+.login:hover{
+    opacity:0.7;
+}

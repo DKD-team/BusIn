@@ -9,7 +9,7 @@ header {
 }
 
 body {
-    width: 1450px;
+    width: 100%;
     font-family: Comic_Sans_MS;
     src: url(./assets/fonts/Comic_Sans_MS.ttf);
 }
@@ -48,7 +48,7 @@ a {
     font-size: 25px;
     height: 30px;
     padding: 10px;
-    background-color: red;
+    background-color: orange;
     border-radius: 30px;
     color: white;
 }

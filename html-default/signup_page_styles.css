@@ -1,5 +1,5 @@
 body {
-    width: 1450px;
+    width: 100%;
     font-family: Comic_Sans_MS;
     src: url(./assets/fonts/Comic_Sans_MS.ttf);
 }
@@ -33,6 +33,9 @@ header {
 .sign_in {
     text-decoration: none;
     color: blue;
+}
+.sign_in:hover{
+    color:orange;
 }
 
 .middle_section {

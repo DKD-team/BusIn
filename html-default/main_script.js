@@ -85,6 +85,8 @@ function rollup(){
         document.getElementById("exit_button").setAttribute("style","width:51px");
         document.getElementById("settings_button").setAttribute("style","width:51px");
         document.getElementById("rollup_button").setAttribute("style","width:51px");
+        document.getElementById("rollup_button").setAttribute("value","  ►");
+
         
 
     }
@@ -98,6 +100,7 @@ function rollup(){
         document.getElementById("exit_button").setAttribute("style","width:225px");
         document.getElementById("settings_button").setAttribute("style","width:225px");
         document.getElementById("rollup_button").setAttribute("style","width:225px");
+        document.getElementById("rollup_button").setAttribute("value","  ◄     Свернуть");
         
         
     }

@@ -1,7 +1,8 @@
 body {
-    width: 1450px;
+    width: 100%;
     font-family: Comic_Sans_MS;
     src: url(./assets/fonts/Comic_Sans_MS.ttf);
+    
 }
 
 @font-face {
@@ -81,9 +82,7 @@ header {
     height: 52.4px;
 }
 
-#faces_paragraph {
-    padding-left: 120px;
-}
+
 
 .review_summary {
     display: flex;
@@ -183,7 +182,8 @@ header {
 
 .new_company_paragraph {
     border-bottom: 1px solid rgba(180, 174, 174, 0.925);
-    padding-left: 160px;
+    padding-left: 150px;
+    
     display: flex;
     font-size: 21px;
 }
@@ -195,23 +195,23 @@ header {
 }
 
 #sales_paragraph {
-    padding-left: 170px;
+    padding-left: 165px;
 }
 
 #close_company_window {
-    padding-left: 130px;
-    margin-top: 0px;
-    padding-top: 0px;
-}
-
-#close_face_window {
     padding-left: 110px;
     margin-top: 0px;
     padding-top: 0px;
 }
 
+#close_face_window {
+    padding-left: 70px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
 #close_sale_window {
-    padding-left: 150px;
+    padding-left: 120px;
 }
 
 #close_help_window {
@@ -318,7 +318,7 @@ header {
 }
 
 .settings_paragraph_mail {
-    margin: 20px 0px 0px 295px;
+    margin: 20px 0px 0px 275px;
     font-size: 25px;
 }
 
@@ -328,12 +328,12 @@ header {
 }
 
 .settings_paragraph_surname {
-    margin: 20px 0px 0px 400px;
+    margin: 20px 0px 0px 393px;
     font-size: 25px;
 }
 
 .settings_paragraph_password {
-    margin: 20px 0px 0px 350px;
+    margin: 20px 0px 0px 349px;
     font-size: 25px;
 }
 
@@ -357,4 +357,7 @@ header {
 
 #save_password_changes {
     margin: 50px 0px 0px 505px;
+}
+#faces_paragraph{
+    padding-left:130px;
 }

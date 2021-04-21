@@ -144,6 +144,7 @@ function close_sale(){
 function save_new(s1,s2,s3,s4,s5,s6,s7){
     let company=document.getElementById(s1);
     let first_input=document.getElementById(s2);
+    let tape=document.getElementById("tape_values_section");
     if(first_input.value.length>0)
     {
         let second_input=document.getElementById(s3);
@@ -156,6 +157,26 @@ function save_new(s1,s2,s3,s4,s5,s6,s7){
         close_company();
         close_face();
         close_sale();
+        let type="";
+        if(s1=="sales")
+        type="Сделка";
+        else
+        if(s1=="faces")
+        type="Контактное лицо"
+        else
+        type="Компания";
+        var current_datetime =new Date();
+        var day = current_datetime.getDate();
+        var month = current_datetime.getMonth()+1;
+        var year = current_datetime.getFullYear();
+        var hours = current_datetime.getHours();
+        var minutes = current_datetime.getMinutes();
+        var seconds = current_datetime.getSeconds();
+        var data=day+"."+month+"."+year+" "+hours+":"+minutes+":"+seconds;
+        console.log(day);
+        tape.insertAdjacentHTML('beforeend','<div class="tape_value">'+'<p class="tape_value_type">'+type+'</p>'+'<p class="tape_value_name">'+first_input.value+'</p>'+'<p class="tape_value_data">'+data+'</p>'+'</div>');
+        
+       
     }
     else{
         alert(s7);

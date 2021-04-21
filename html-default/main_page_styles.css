@@ -1,5 +1,5 @@
 body {
-    width: 100%;
+    width: 99%;
     font-family: Comic_Sans_MS;
     src: url(./assets/fonts/Comic_Sans_MS.ttf);
     
@@ -78,7 +78,7 @@ header {
 .review_paragraph {
     border-bottom: 1px solid gray;
     font-size: 25px;
-    padding-left: 550px;
+    padding-left: 40%;
     height: 52.4px;
 }
 
@@ -149,8 +149,11 @@ header {
 .company_table_header {
     display: flex;
     justify-content: space-between;
-    margin-left: 30px;
+    padding-left: 30px;
     font-size: 20px;
+}
+#no_hover:hover{
+    background-color: white;
 }
 
 .company_table_string {
@@ -254,15 +257,19 @@ header {
     margin-right: 50px;
     overflow: hidden;
 }
+.company_table_header:hover{
+    background-color: rgb(236, 231, 231);
+
+}
 
 .company_item_phone {
-    width: 160px;
+    width: 200px;
     margin-right: 50px;
     overflow: hidden;
 }
 
 .company_item_address {
-    width: 200px;
+    width: 180px;
     margin-right: 50px;
     overflow: hidden;
 }
@@ -361,4 +368,33 @@ header {
 }
 #faces_paragraph{
     padding-left:130px;
+}
+.tape_paragraph{
+    font-size: 20px;
+    padding-left: 39%;
+    margin-top: 80px;
+}
+.tape_value{
+    border:1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 50px 20px 50px;
+    margin-bottom: 5px;
+}
+.tape_value_type{
+    color:orange;
+    width:150px;
+}
+.tape_value_name{
+    margin-left:110px;
+    width:300px;
+    overflow: hidden;
+}
+.tape_value_data{
+    margin-left:50px;
+    width:200px;
+    font-size:15px;
+}
+.tape_value:hover{
+    background-color: rgb(236, 231, 231);
 }

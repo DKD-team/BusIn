@@ -1,0 +1,178 @@
+2021-05-17 22:43:55,223 | INFO | application:48 | Application started on port: 9800
+2021-05-17 22:44:59,019 | INFO | application:48 | Application started on port: 9800
+2021-05-17 22:45:18,727 | INFO | handler:33 | 2fff3108-7018-4487-89a6-1469a303c15a | REQUEST:
+/?USERNAME=login1&PASSWORD=pass1&ACTION=***
+2021-05-17 22:45:18,727 | INFO | handler:60 | 2fff3108-7018-4487-89a6-1469a303c15a | RESPONSE:
+{"status_code>":-1, "time_stamp>": "2021-05-17T22:45:18" | Traceback (most recent call last):
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\handler.py", line 55, in get
+    raise Exception
+Exception
+
+2021-05-17 22:46:21,524 | INFO | handler:33 | 5068d468-fef9-49ae-9237-9995457c58dd | REQUEST:
+/?USERNAME=login1&PASSWORD=pass1&ACTION=Payment
+2021-05-17 22:46:21,525 | INFO | handler:60 | 5068d468-fef9-49ae-9237-9995457c58dd | RESPONSE:
+{"status_code>":-1, "time_stamp>": "2021-05-17T22:46:21" | Traceback (most recent call last):
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\handler.py", line 55, in get
+    raise Exception
+Exception
+
+2021-05-17 22:47:20,226 | INFO | application:48 | Application started on port: 9800
+2021-05-17 22:48:01,250 | INFO | application:48 | Application started on port: 9800
+2021-05-17 22:48:07,332 | INFO | handler:33 | dbffc4b4-c88b-45e6-9eab-3b5d4d64f181 | REQUEST:
+/?USERNAME=login1&PASSWORD=pass1&ACTION=Payment
+2021-05-17 22:48:07,332 | INFO | handler:61 | dbffc4b4-c88b-45e6-9eab-3b5d4d64f181 | RESPONSE:
+{"status_code>":-1, "time_stamp>": "2021-05-17T22:48:07" | Traceback (most recent call last):
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\handler.py", line 56, in get
+    raise Exception
+Exception
+
+2021-05-17 22:48:30,272 | INFO | application:48 | Application started on port: 9800
+2021-05-17 22:48:33,727 | INFO | handler:33 | b4cff87d-bcd7-41fb-ad0a-ee632aeb2e33 | REQUEST:
+/?USERNAME=login1&PASSWORD=pass1&ACTION=Payment
+2021-05-17 22:48:33,728 | INFO | handler:61 | b4cff87d-bcd7-41fb-ad0a-ee632aeb2e33 | RESPONSE:
+{"status_code>":-1, "time_stamp>": "2021-05-17T22:48:33" | Traceback (most recent call last):
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\handler.py", line 56, in get
+    raise Exception
+Exception
+
+2021-05-17 22:49:44,804 | INFO | application:48 | Application started on port: 9800
+2021-05-17 22:49:47,916 | INFO | handler:33 | 117a6786-a172-41c8-aa97-863086bd681a | REQUEST:
+/?USERNAME=login1&PASSWORD=pass1&ACTION=Payment
+2021-05-17 22:49:47,916 | INFO | handler:62 | 117a6786-a172-41c8-aa97-863086bd681a | RESPONSE:
+{"status_code>":-1, "time_stamp>": "2021-05-17T22:49:47" | Traceback (most recent call last):
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\handler.py", line 57, in get
+    raise Exception
+Exception
+
+2021-05-17 22:50:10,354 | INFO | application:48 | Application started on port: 9800
+2021-05-17 22:50:15,187 | INFO | handler:33 | 49ad5f97-7e61-4919-a7ed-7aef924b735a | REQUEST:
+/?USERNAME=login1&PASSWORD=pass1&ACTION=payment
+2021-05-17 22:50:15,187 | INFO | handler:45 | METHOD NAME payment
+2021-05-17 22:50:15,198 | INFO | handler:62 | 49ad5f97-7e61-4919-a7ed-7aef924b735a | RESPONSE:
+{"status_code>":-1, "time_stamp>": "2021-05-17T22:50:15" | Traceback (most recent call last):
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\handler.py", line 47, in get
+    action = self.get_method_controller(str(data_dict.get("action")))(
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\handler.py", line 66, in get_method_controller
+    controllers = importlib.import_module(f'app.v1.controllers')
+  File "C:\Users\okojot\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\v1\controllers\__init__.py", line 1, in <module>
+    from .check import Check
+ModuleNotFoundError: No module named 'app.v1.controllers.check'
+
+2021-05-17 22:50:31,969 | INFO | application:48 | Application started on port: 9800
+2021-05-17 22:50:34,385 | INFO | handler:33 | ce61b5aa-fa12-435e-9f79-535b117c254e | REQUEST:
+/?USERNAME=login1&PASSWORD=pass1&ACTION=payment
+2021-05-17 22:50:34,385 | INFO | handler:45 | METHOD NAME payment
+2021-05-17 22:50:34,389 | INFO | handler:62 | ce61b5aa-fa12-435e-9f79-535b117c254e | RESPONSE:
+{"status_code>":-1, "time_stamp>": "2021-05-17T22:50:34" | Traceback (most recent call last):
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\handler.py", line 47, in get
+    action = self.get_method_controller(str(data_dict.get("action")))(
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\handler.py", line 66, in get_method_controller
+    controllers = importlib.import_module(f'app.v1.controllers')
+  File "C:\Users\okojot\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\v1\controllers\__init__.py", line 2, in <module>
+    from .payment import Payment
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\v1\controllers\payment.py", line 5, in <module>
+    from app.exceptions import ServerError
+ModuleNotFoundError: No module named 'app.exceptions'
+
+2021-05-17 22:50:54,687 | INFO | application:48 | Application started on port: 9800
+2021-05-17 22:50:56,345 | INFO | handler:33 | 9512278b-0e57-4774-a0c5-cf11566e2fa7 | REQUEST:
+/?USERNAME=login1&PASSWORD=pass1&ACTION=payment
+2021-05-17 22:50:56,345 | INFO | handler:45 | METHOD NAME payment
+2021-05-17 22:50:56,352 | INFO | handler:62 | 9512278b-0e57-4774-a0c5-cf11566e2fa7 | RESPONSE:
+{"status_code>":-1, "time_stamp>": "2021-05-17T22:50:56" | Traceback (most recent call last):
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\handler.py", line 47, in get
+    action = self.get_method_controller(str(data_dict.get("action")))(
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\handler.py", line 66, in get_method_controller
+    controllers = importlib.import_module(f'app.v1.controllers')
+  File "C:\Users\okojot\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\v1\controllers\__init__.py", line 2, in <module>
+    from .payment import Payment
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\v1\controllers\payment.py", line 4, in <module>
+    from app.base.controller import BaseController
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\controller.py", line 5, in <module>
+    from app.base.api import API
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\api\__init__.py", line 1, in <module>
+    from .index import API
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\api\index.py", line 2, in <module>
+    import requests_async as requests
+ModuleNotFoundError: No module named 'requests_async'
+
+2021-05-17 22:51:33,256 | INFO | application:48 | Application started on port: 9800
+2021-05-17 22:51:37,077 | INFO | handler:33 | 8d695926-0cc9-4eaa-8332-450790293601 | REQUEST:
+/?USERNAME=login1&PASSWORD=pass1&ACTION=payment
+2021-05-17 22:51:37,077 | INFO | handler:45 | METHOD NAME payment
+2021-05-17 22:51:37,186 | INFO | handler:62 | 8d695926-0cc9-4eaa-8332-450790293601 | RESPONSE:
+{"status_code>":-1, "time_stamp>": "2021-05-17T22:51:37" | Traceback (most recent call last):
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\handler.py", line 47, in get
+    action = self.get_method_controller(str(data_dict.get("action")))(
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\handler.py", line 66, in get_method_controller
+    controllers = importlib.import_module(f'app.v1.controllers')
+  File "C:\Users\okojot\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\v1\controllers\__init__.py", line 3, in <module>
+    from .confirm import Confirm
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\v1\controllers\confirm.py", line 5, in <module>
+    from app.exceptions import ServerError
+ModuleNotFoundError: No module named 'app.exceptions'
+
+2021-05-17 22:51:57,644 | INFO | application:48 | Application started on port: 9800
+2021-05-17 22:52:00,173 | INFO | handler:33 | 8e5fc7af-79b8-4bd8-b121-d1c86aaef804 | REQUEST:
+/?USERNAME=login1&PASSWORD=pass1&ACTION=payment
+2021-05-17 22:52:00,173 | INFO | handler:45 | METHOD NAME payment
+2021-05-17 22:52:00,277 | INFO | handler:62 | 8e5fc7af-79b8-4bd8-b121-d1c86aaef804 | RESPONSE:
+{"status_code>":-1, "time_stamp>": "2021-05-17T22:52:00" | Traceback (most recent call last):
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\handler.py", line 47, in get
+    action = self.get_method_controller(str(data_dict.get("action")))(
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\handler.py", line 66, in get_method_controller
+    controllers = importlib.import_module(f'app.v1.controllers')
+  File "C:\Users\okojot\AppData\Local\Programs\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\v1\controllers\__init__.py", line 3, in <module>
+    from .confirm import Confirm
+ModuleNotFoundError: No module named 'app.v1.controllers.confirm'
+
+2021-05-17 22:52:13,484 | INFO | application:48 | Application started on port: 9800
+2021-05-17 22:52:15,688 | INFO | handler:33 | 65dac167-7724-4035-b500-1a4a02bc00da | REQUEST:
+/?USERNAME=login1&PASSWORD=pass1&ACTION=payment
+2021-05-17 22:52:15,688 | INFO | handler:45 | METHOD NAME payment
+2021-05-17 22:52:15,794 | INFO | handler:62 | 65dac167-7724-4035-b500-1a4a02bc00da | RESPONSE:
+{"status_code>":-1, "time_stamp>": "2021-05-17T22:52:15" | Traceback (most recent call last):
+  File "C:\Users\okojot\Desktop\git_folder\test_api\app\base\handler.py", line 49, in get
+    request_id=action_id
+TypeError: 'module' object is not callable
+

@@ -1,0 +1,5 @@
+tornado==6.1
+requests-async==0.6.2
+lxml==4.6.2
+requests==2.25.0
+rsa==4.7
